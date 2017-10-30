@@ -37,22 +37,22 @@
                               <RowConstraints maxHeight="168.0" minHeight="10.0" prefHeight="162.0" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
-                              <Label fx:id="t1NameLabel" contentDisplay="CENTER" text="Team 1:" textAlignment="CENTER" wrapText="true" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                              <Label fx:id="t1NameLabel" contentDisplay="CENTER" text="Team 1:" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                                  <font>
                                     <Font size="46.0" />
                                  </font>
                               </Label>
-                              <Label fx:id="t2NameLabel" contentDisplay="CENTER" text="Team 2:" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+                              <Label fx:id="t2NameLabel" contentDisplay="CENTER" text="Team 2:" textAlignment="CENTER" wrapText="true" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                                  <font>
                                     <Font size="46.0" />
                                  </font>
                               </Label>
-                              <Label fx:id="t1ScoreLabel" contentDisplay="CENTER" text="0" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label fx:id="t1ScoreLabel" contentDisplay="CENTER" text="0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font size="78.0" />
                                  </font>
                               </Label>
-                              <Label fx:id="t2ScoreLabel" contentDisplay="CENTER" text="0" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                              <Label fx:id="t2ScoreLabel" contentDisplay="CENTER" text="0" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                                  <font>
                                     <Font size="78.0" />
                                  </font>
